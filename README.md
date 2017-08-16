@@ -61,7 +61,8 @@ The class `com.github.fcproj.reviews.affinity.UserAffinityTwoPasses` implements 
 * Mapper2: generate a couple sorting user1<user2. Returns the couple (key) and the productid (value)
 * Reducer2: if the list of productid is greater than MIN_PRODUCTS, writes the couple
 
-Executon Time:
+The code was executed on PICO (http://www.hpc.cineca.it/hardware/pico), the latest Cineca’s Italian Supercomputing infrastructure for big data. Execution Time:
+
 * 1999_2006.csv (5 MB) - 1 node, 2 cores and 48 GB - 44.3 s 
 * 1999_2012.csv (~300 MB) - 1 node, 2 cores and 48 GB - 305.8 s
 * 1999_2012.csv (~300 MB) - 2 nodes, each one has 2 cores and 48 GB - 302.289 s
